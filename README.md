@@ -1,5 +1,5 @@
 # TttAngular
-https://tic-tac-toe-hamza.netlify.app/home
+https://tic-tac-toe-hamza.netlify.app/
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
 ## Development server
