@@ -1,0 +1,17 @@
+<div class="App">
+  <div class='center'>
+    <div class='game-top'>
+      <button class="restart-button" (click)="resetGame()">Recommencer</button>
+      <div *ngIf="winningPlayer === 0" class='game-status'>Joueur {{currentPlayer}} joue</div>
+      <div *ngIf="winningPlayer !== 0" class='game-status'>Joueur {{winningPlayer}} a gagné</div>
+
+    </div>
+    <div class='game-container'>
+      <div class='grid'>
+        <div *ngFor="let i of gameTab; let index = index" class="grid-item" (click)="choseCase(index)">
+          <img [src]="getImage(i)"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

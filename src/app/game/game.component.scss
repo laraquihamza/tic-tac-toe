@@ -1,0 +1,52 @@
+.restart-button{
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 41px;
+  padding-left: 38px;
+  padding-right: 38px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+}
+.game-status{
+  font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+}
+.game-top{
+  display: flex;
+  flex-direction: column;
+  gap:23px;
+  margin-top: 71px;
+}
+.game-container{
+  background: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+border-radius: 20px;
+width: 296px;
+height: 296px;
+padding: 28px;
+margin: auto;
+margin-bottom: 105px;
+}
+.grid{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  grid-gap: 2px;
+  background-color: #C1C1C1;
+  height: inherit;
+
+}
+.grid-item{
+  background-color: white;
+}
